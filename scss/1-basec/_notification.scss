@@ -1,0 +1,31 @@
+.notification-wrap{
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba($color: $bath-green, $alpha: 0.24);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 $common-space;
+
+  .dropdown-toggle::before{
+    width: 10px;
+    height: 10px;
+    content:"";
+    background: linear-gradient(180deg, #47D0DA -84.37%, #0B646B 178.12%);
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    border-radius: 50%;
+    border: 1px solid #F9F9F9;
+  }
+
+  .dropdown-toggle::after{
+    display: none;
+
+  }
+  .dropdown-toggle:focus{
+    outline: none;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,33 @@
+
+.main-header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+
+  .logo-wrapper{
+    width: 256px;
+    min-width: 256px;
+    background-color: $white;
+    padding: $frame-space 16px;
+    .main-logo{
+      display: inline-block;
+      image-rendering: -webkit-optimize-contrast;
+    }
+  }
+  .header-container{
+    padding: $frame-space;
+    background-color: $main-bg;
+    flex-grow: 1;
+    .page-title{
+      color: $macko;
+      font-size: $h3-size;
+      font-weight: 700;
+      line-height: $h3-text-height;
+      margin-bottom: 0;
+      flex-grow: 1;
+    }
+
+  }
+}

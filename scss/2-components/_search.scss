@@ -1,0 +1,40 @@
+
+
+
+.search-bar{
+  position: relative;
+  height: 40px;
+
+  .form-control{
+    border: 1px solid rgba($color: $bath-green, $alpha: 0.24);
+    box-sizing: border-box;
+    border-radius: $btn-radius;
+    width: 278px;
+    padding: 8px 12px;
+    padding-left: 44px;
+    height: 40px;
+    background-color: $main-bg;
+    overflow: hidden;
+    
+    &::placeholder{
+      color: $body-color;
+    }
+
+    &:focus{
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .btn-search{
+    position: absolute;
+    margin-right: 12px;
+    overflow: hidden;
+
+    &:focus{
+      outline: none;
+      box-shadow: none;
+    }
+
+  }
+}

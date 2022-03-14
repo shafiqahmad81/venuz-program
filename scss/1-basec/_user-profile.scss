@@ -1,0 +1,15 @@
+.profile-info{
+  span{
+    font-weight: 400;
+    font-size: $h6-size;
+    line-height: $h6-text-height;
+    letter-spacing: 0.03em;
+    color: rgba($color: $gray-2, $alpha: 0.8);
+    margin-right: 8px;
+  }
+  
+  figure{
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+}
